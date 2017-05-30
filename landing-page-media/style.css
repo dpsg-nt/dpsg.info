@@ -16,7 +16,7 @@ body{
 font-family: 'Lato', sans-serif;
 }
 h1{
-font-size: 4em;
+font-size: 3em;
 }
 p{
 font-size: 1em;
@@ -90,6 +90,7 @@ text-align: center;
   background-color: #003056;
   border-color: #003056;
   border-radius: 0;
+  white-space: normal;
 }
 .btn.btn-primary:hover {
   background: rgba(255, 255, 255, 0.7);
