@@ -62,6 +62,10 @@ text-align: center;
   color: #003056;
 }
 
+.pp-section.pp-table {
+  display: block;
+}
+
 .section .pp-tableCell {
   display: flex;
   flex-direction: column;
