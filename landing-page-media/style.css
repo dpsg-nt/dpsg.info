@@ -1,0 +1,149 @@
+
+
+
+h1,h2,h3,h4,h5,h6 {
+font-weight: normal;
+font-size: 100%;
+margin:0;
+padding:0;
+}
+q:before,q:after {
+content:'';
+}
+abbr,acronym { border: 0;
+}
+
+/* Custom CSS
+* --------------------------------------- */
+body{
+font-family: 'Lato', sans-serif;
+}
+h1{
+font-size: 4em;
+}
+p{
+font-size: 2em;
+}
+small{
+font-size: 1em;
+}
+.section{
+text-align: center;
+}
+
+/* Menu
+* --------------------------------------- */
+#menu{
+position:fixed;
+top:0;
+left:0;
+z-index: 70;
+width: 100%;
+padding: 0;
+margin:0;
+background-color: #003056;
+}
+#menu li {
+display:inline-block;
+}
+#menu li a {
+font-family: 'Roboto Slab', serif;
+text-decoration:none;
+padding: 20px 20px;
+display:block;
+color: #fff;
+}
+#menu li:hover a {
+color: yellow;
+}
+#menu li.active a {
+color: #fff;
+text-decoration: underline;
+}
+#menu li#logo a {
+background-image: url("https://dpsg.de/fileadmin/TemplateFluid/dpsg.de/Public/img/dpsg.l.w.svg");
+background-size: 4em auto;
+background-repeat: no-repeat;
+background-position: -1em -0.55em;
+}
+
+
+#infoMenu{
+height: 20px;
+color: #fff;
+position:fixed;
+z-index:70;
+bottom:0;
+width:100%;
+text-align:right;
+font-size:15px;
+}
+#infoMenu ul{
+padding: 0 40px;
+}
+#infoMenu li a{
+display: block;
+margin: 0 22px 0 0;
+color: #333;
+}
+#infoMenu li a:hover{
+text-decoration:underline;
+}
+#infoMenu li{
+display:inline-block;
+position:relative;
+}
+
+
+/* ------------------------------------------------------------ */
+#section1 {
+background-image: url(https://bilder.dpsg-nuertingen.de/main.php?g2_view=core.DownloadItem&g2_itemId=25372&g2_serialNumber=2);
+}
+#section2 {
+background-image: url(https://scontent.xx.fbcdn.net/v/t31.0-8/476013_288311241239385_946728563_o.jpg?oh=4f7ba03765c5fd152315c450adcd56b6&oe=59E57358);
+}
+#section3 {
+background-image: url(https://bilder.dpsg-nuertingen.de/main.php?g2_view=core.DownloadItem&g2_itemId=25372&g2_serialNumber=2);
+}
+#section4 {
+background-image: url(https://scontent.xx.fbcdn.net/v/t31.0-8/476013_288311241239385_946728563_o.jpg?oh=4f7ba03765c5fd152315c450adcd56b6&oe=59E57358);
+}
+.section {
+background-size: cover;
+}
+
+.jakob {
+text-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+color: #fff;
+}
+
+.jannik {
+color: #003056;
+}
+
+.jannik h1 {
+line-height: 2em;
+white-space: nowrap;
+display: inline;
+margin: 0;
+padding: 0.2em 0.4em;
+background: rgba(255, 255, 255, 0.7);
+}
+
+.jannik p {
+line-height: 2em;
+white-space: nowrap;
+display: inline;
+margin: 0;
+padding: 0.2em 0.4em;
+background: rgba(255, 255, 255, 0.7);
+}
+
+.jannik small {
+line-height: 2em;
+white-space: nowrap;
+display: inline;
+margin: 0;
+padding: 0.2em 0.4em;
+background: rgba(255, 255, 255, 0.7);
+}
