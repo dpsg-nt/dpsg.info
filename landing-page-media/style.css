@@ -30,40 +30,9 @@ text-align: center;
 
 /* Menu
 * --------------------------------------- */
-#menu{
-position:fixed;
-top:0;
-left:0;
-z-index: 70;
-width: 100%;
-padding: 0;
-margin:0;
-background-color: #003056;
+.navbar {
+  background-color: #003056;
 }
-#menu li {
-display:inline-block;
-}
-#menu li a {
-font-family: 'Roboto Slab', serif;
-text-decoration:none;
-padding: 20px 20px;
-display:block;
-color: #fff;
-}
-#menu li:hover a {
-color: yellow;
-}
-#menu li.active a {
-color: #fff;
-text-decoration: underline;
-}
-#menu li#logo a {
-background-image: url("https://dpsg.de/fileadmin/TemplateFluid/dpsg.de/Public/img/dpsg.l.w.svg");
-background-size: 4em auto;
-background-repeat: no-repeat;
-background-position: -1em -0.55em;
-}
-
 
 #infoMenu{
 position:fixed;

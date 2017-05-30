@@ -2,11 +2,13 @@
 <html>
 <head>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
   <script type="text/javascript" src="https://alvarotrigo.com/pagePiling/jquery.pagepiling.min.js"></script>
   <link rel="stylesheet" type="text/css" href="https://alvarotrigo.com/pagePiling/jquery.pagepiling.css">
-  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"></script>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
   <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
 
@@ -18,16 +20,26 @@
 </head>
 
 <body>
-  <ul id="menu">
-    <li data-menuanchor="page1" id="logo"><a href="#page1">&nbsp;</a></li>
-    <li data-menuanchor="page2"><a href="#page2">Grundsätze</a></li>
-    <li data-menuanchor="page3"><a href="#page3">Weltweit</a></li>
-    <li data-menuanchor="page4"><a href="#page4">Altersstufen</a></li>
-    <li data-menuanchor="page5"><a href="#page5">Friedenspfadfinder</a></li>
-    <li data-menuanchor="page6"><a href="#page6">Kluft &amp; Halstuch</a></li>
-    <li data-menuanchor="page7"><a href="#page7">Fahrten &amp; Lager</a></li>
-    <li data-menuanchor="page8"><a href="#page8">Mitachen</a></li>
-  </ul>
+  <nav class="navbar fixed-top navbar-toggleable-md navbar-inverse">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#page1">
+      <img src="landing-page-media/logo.png" width="30" height="30" alt="">
+    </a>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul id="menu" class="navbar-nav mr-auto">
+        <li data-menuanchor="page2" class="nav-item"><a class="nav-link" href="#page2">Grundsätze</a></li>
+        <li data-menuanchor="page3" class="nav-item"><a class="nav-link" href="#page3">Weltweit</a></li>
+        <li data-menuanchor="page4" class="nav-item"><a class="nav-link" href="#page4">Altersstufen</a></li>
+        <li data-menuanchor="page5" class="nav-item"><a class="nav-link" href="#page5">Friedenspfadfinder</a></li>
+        <li data-menuanchor="page6" class="nav-item"><a class="nav-link" href="#page6">Kluft &amp; Halstuch</a></li>
+        <li data-menuanchor="page7" class="nav-item"><a class="nav-link" href="#page7">Fahrten &amp; Lager</a></li>
+        <li data-menuanchor="page8" class="nav-item"><a class="nav-link" href="#page8">Mitachen</a></li>
+      </ul>
+    </div>
+  </nav>
 
   <div id="pagepiling">
     <div class="section background-box" id="section1" style="background-image:url(landing-page-media/images/lagerfeuerrunde.jpg);">
