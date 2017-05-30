@@ -34,7 +34,7 @@ text-align: center;
   background-color: #003056;
 }
 
-#infoMenu{
+#footer-menu{
   position:fixed;
   z-index:70;
   bottom:0;
@@ -42,19 +42,19 @@ text-align: center;
   text-align:right;
   font-size:15px;
 }
-#infoMenu ul{
+#footer-menu ul{
   padding: 0 40px;
 }
-#infoMenu li a {
+#footer-menu li a {
   display: block;
   margin: 0 10px;
   color: #fff;
   text-decoration: none;
 }
-#infoMenu li a:hover{
+#footer-menu li a:hover{
   text-decoration:underline;
 }
-#infoMenu li{
+#footer-menu li{
   display:inline-block;
   position:relative;
 }
