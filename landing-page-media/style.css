@@ -1,6 +1,3 @@
-
-
-
 h1,h2,h3,h4,h5,h6 {
 font-weight: normal;
 font-size: 100%;
@@ -69,7 +66,6 @@ background-position: -1em -0.55em;
 
 
 #infoMenu{
-color: #fff;
 position:fixed;
 z-index:70;
 bottom:0;
@@ -80,10 +76,11 @@ font-size:15px;
 #infoMenu ul{
 padding: 0 40px;
 }
-#infoMenu li a{
+#infoMenu li a {
 display: block;
-margin: 0 22px 0 0;
-color: #333;
+margin: 0 10px;
+color: #fff;
+text-decoration: none;
 }
 #infoMenu li a:hover{
 text-decoration:underline;
@@ -93,34 +90,17 @@ display:inline-block;
 position:relative;
 }
 
-
 /* ------------------------------------------------------------ */
-#section1 {
-background-image: url(https://bilder.dpsg-nuertingen.de/main.php?g2_view=core.DownloadItem&g2_itemId=25372&g2_serialNumber=2);
-}
-#section2 {
-background-image: url(https://scontent.xx.fbcdn.net/v/t31.0-8/476013_288311241239385_946728563_o.jpg?oh=4f7ba03765c5fd152315c450adcd56b6&oe=59E57358);
-}
-#section3 {
-background-image: url(https://bilder.dpsg-nuertingen.de/main.php?g2_view=core.DownloadItem&g2_itemId=25372&g2_serialNumber=2);
-}
-#section4 {
-background-image: url(https://scontent.xx.fbcdn.net/v/t31.0-8/476013_288311241239385_946728563_o.jpg?oh=4f7ba03765c5fd152315c450adcd56b6&oe=59E57358);
-}
 .section {
 background-size: cover;
-}
-
-.jakob {
-text-shadow: 0px 0px 10px rgba(0,0,0,0.3);
 color: #fff;
 }
 
-.jannik {
+.section.background-box {
 color: #003056;
 }
 
-.jannik h1 {
+.section.background-box h1 {
 line-height: 2em;
 white-space: nowrap;
 display: inline;
@@ -129,7 +109,7 @@ padding: 0.2em 0.4em;
 background: rgba(255, 255, 255, 0.7);
 }
 
-.jannik p {
+.section.background-box p {
 line-height: 2em;
 white-space: nowrap;
 display: inline;
@@ -138,7 +118,7 @@ padding: 0.2em 0.4em;
 background: rgba(255, 255, 255, 0.7);
 }
 
-.jannik small {
+.section.background-box small {
 line-height: 2em;
 white-space: nowrap;
 display: inline;
