@@ -19,9 +19,6 @@ h1{
 font-size: 4em;
 }
 p{
-font-size: 2em;
-}
-small{
 font-size: 1em;
 }
 .section{
@@ -80,4 +77,14 @@ text-align: center;
   margin: 0;
   margin-bottom: 20px;
   max-width: 800px;
+}
+
+.btn.btn-primary {
+  background-color: #003056;
+  border-color: #003056;
+  border-radius: 0;
+}
+.btn.btn-primary:hover {
+  background: rgba(255, 255, 255, 0.7);
+  color: #003056;
 }
