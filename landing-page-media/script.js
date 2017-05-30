@@ -4,12 +4,12 @@ $(document).ready(function() {
 	*/
 	$('#pagepiling').pagepiling({
 		menu: '#menu',
-		anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6'],
-		sectionsColor: ['#f0f4f6', '#ffffff', '#f0f4f6', '#ffffff', '#ffffff', '#ffffff'],
+		anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6', 'page7', 'page8'],
+		sectionsColor: ['#ffffff', '#ffffff', '#ffffff', '#ffffff', '#ffffff', '#ffffff', '#ffffff', '#ffffff'],
     scrollingSpeed: 500,
 		navigation: {
 			'position': 'right',
-			'tooltips': ['Grundsätze der Pfadfinder', 'Page 2', 'Page 3', 'Page 4', 'Page 5', 'Page 6']
+			'tooltips': ['Grundsätze der Pfadfinder', 'Page 2', 'Page 3', 'Page 4', 'Page 5', 'Page 6', 'Page 7', 'Page 8']
 		},
 		afterRender: function(){
 			$('#pp-nav').addClass('custom');
