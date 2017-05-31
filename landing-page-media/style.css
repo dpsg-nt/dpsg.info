@@ -81,8 +81,7 @@ text-align: center;
 }
 
 .section .pp-tableCell > * {
-  margin: 0;
-  margin-bottom: 20px;
+  margin: 0px 5px 20px 5px;
 }
 
 .section .pp-tableCell > h1,
