@@ -66,6 +66,7 @@ text-align: center;
 .section {
   background-size: cover;
   color: #003056;
+  padding-top: 50px;
 }
 
 .pp-section.pp-table {
